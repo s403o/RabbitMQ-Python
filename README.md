@@ -6,8 +6,7 @@ Applying Message queue architecture using RabbitMQ
 docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.11-management
 ```
 ## Running
-- start the publisher ``` python3 publisher.py ``` You should see an output ***Sent notify message
-Sent report message***
+- start the publisher ``` python3 publisher.py ``` You should see an output ***Sent notify message***
 - start the consumer ```python3 consumer.py```, You should see an output ***Notifying eslam.adel.me@gmail.com***
 
 ## Architecture
